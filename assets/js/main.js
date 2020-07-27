@@ -1,7 +1,9 @@
-var name = "Jeziel Firmino da Silva";
+var name = "Jeziel";
+var surname = "Firmino";
 var age = 33;
 var birth = "setembro";
 var brothers = ["Samuel", "Eliel", "Leiliane","Laudicéia", "Lidiane", "Luciene"];
+var friends = ["Edison", "Jorge", "David", "Lucas", "Carlos Henrique", "Danilo"];
 
 /*  Exercícios: */
 
@@ -22,10 +24,8 @@ var brothers = ["Samuel", "Eliel", "Leiliane","Laudicéia", "Lidiane", "Luciene"
 /*  3 - Criar uma condição que execute se você fizer aniversário
   em Janeiro OU Dezembro */
 
-  if(birth === "Janeiro" && "Dezembro") {
+  if(birth === "Janeiro" || "Dezembro") {
       console.log("mes errado");
-  } else {
-      console.log("o mes é setembro");
   }
 
 /*  4 - Criar uma condição que execute se você tiver mais de 2 irmãos
@@ -38,5 +38,13 @@ var brothers = ["Samuel", "Eliel", "Leiliane","Laudicéia", "Lidiane", "Luciene"
 /*  5 - Criar uma condição que execute se seu sobrenome tenha mais
   de 6 letras OU seu nome começe com a letra E */
 
-/*  6 - Criar uma condição caso você tenha uma amigo que começe com a
+  if(surname.length > 6 || name[0] === "E") {
+      console.log("sobrenome forte");
+  }
+
+/*  6 - Criar uma condição caso você tenha um amigo que começe com a
   letra C */
+
+  if(friends.sort((a,b) => [0] === "C")) {
+      console.log("Esse toca guitarra");
+  }
