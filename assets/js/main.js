@@ -7,7 +7,7 @@ var friends = ["Edison", "Jorge", "David", "Lucas", "Carlos Henrique", "Danilo"]
 
 /*  Exercícios: */
 
-/*  1 - Criar uma condição que execute se idade seja
+/*  1 - Criar uma condição que execute caso sua idade seja
   maior do que 18 */
 
   if(age > 18) {
