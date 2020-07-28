@@ -24,7 +24,7 @@ var friends = ["Edison", "Jorge", "David", "Lucas", "Carlos Henrique", "Danilo"]
 /*  3 - Criar uma condição que execute se você fizer aniversário
   em Janeiro OU Dezembro */
 
-  if(birth === "Janeiro" || "Dezembro") {
+  if(birth === "Janeiro" || birth === "Dezembro") {
       console.log("mes errado");
   }
 
